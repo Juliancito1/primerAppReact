@@ -1,12 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import Titulos from "./components/Titulos";
 
 function App() {
+  //aqui vamos a escribir logica
+
   return (
-  <div></div>
-    )
+    //aqui va el maquetado y un poco de logica
+    //<> es un Fragment
+    <>
+     <Titulos></Titulos>
+     <Titulos/>
+    </>
+  );
 }
 
-export default App
+export default App;
