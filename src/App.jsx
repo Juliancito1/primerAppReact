@@ -9,8 +9,8 @@ function App() {
     //aqui va el maquetado y un poco de logica
     //<> es un Fragment
     <section className="container my-4">
-     <Titulos></Titulos>
-     <Titulos/>
+    {/* <Titulos aqui van los props></Titulos> */}
+     <Titulos nuevoTitulo = 'Este titulo fue creado con props' otroDato={true}/>
     </section>
   );
 }

@@ -1,18 +1,15 @@
 import React from "react";
 
-const Titulos = () => {
+const Titulos = ({nuevoTitulo}) => {
+  // console.log(props.nuevoTitulo)
+  // console.log(nuevoTitulo)
+  
   return (
     <>
-      <div>
-        <div>
-          <h1 className="display-4 text-center">Prueba de titulo principal</h1>
-        </div>
-        <ul className="list-group">
-          <li className="list-group-item">item 1</li>
-          <li className="list-group-item">item 2</li>
-          <li className="list-group-item">item 3</li>
-        </ul>
-      </div>
+      <section className="text-center">
+          <h1 className="display-4">Prueba de titulo principal</h1>
+          <h2 className="display-6">{nuevoTitulo}</h2>
+      </section>
     </>
   );
 };
